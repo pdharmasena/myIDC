@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>5</activeVersionNumber>
+    <description>1. Verify candidate details.
+2. Baseline Prior to starting the exam, ensure that all data is available for Course Contact and Exam Assignment objects. 
+3. If not create the data and make sure that it is tied to the current IDC.</description>
+    <masterLabel>Verify Candidate and Check Baseline</masterLabel>
+</FlowDefinition>

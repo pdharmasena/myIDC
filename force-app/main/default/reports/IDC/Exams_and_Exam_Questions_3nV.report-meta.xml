@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Exam_Question__c.Question__c</field>
+    </columns>
+    <columns>
+        <field>Exam_Question__c.Question_Text__c</field>
+    </columns>
+    <description>Listing report of exams and exam questions</description>
+    <filter>
+        <criteriaItems>
+            <column>FK_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Theory A</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Exam_Question__c.Exam_Section__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>OBSOLETE Exams and Exam Questions</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>CustomEntity$Exam_Question__c@Exam_Question__c.Exam__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <sortColumn>Exam_Question__c.Question__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

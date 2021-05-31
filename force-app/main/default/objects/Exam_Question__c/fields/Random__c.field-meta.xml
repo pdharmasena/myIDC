@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Random__c</fullName>
+    <externalId>false</externalId>
+    <formula>VALUE(SUBSTITUTE(LEFT(RIGHT(TEXT(AutoNumber__c * AutoNumber__c * AutoNumber__c * (NOW() -  $System.OriginDateTime)),5),5),&quot;0&quot;,&quot;1&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Random</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

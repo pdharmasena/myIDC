@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_for_Answer</fullName>
+    <active>true</active>
+    <description>Does the question have an answer</description>
+    <errorConditionFormula>ISBLANK( TEXT( Correct_Answer__c ) )</errorConditionFormula>
+    <errorDisplayField>Correct_Answer__c</errorDisplayField>
+    <errorMessage>You must set an &quot;Answer&quot; for this question!</errorMessage>
+</ValidationRule>

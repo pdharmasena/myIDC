@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_have_a_Section</fullName>
+    <active>true</active>
+    <description>Exam question must have a section entered</description>
+    <errorConditionFormula>AND(
+ISBLANK( TEXT(Exam_Section__c) ), IF(Exam_Type__c = &quot;Theory&quot;, true, false)
+)</errorConditionFormula>
+    <errorDisplayField>Exam_Section__c</errorDisplayField>
+    <errorMessage>You must set a exam section (e.g. Physics, Physiology, etc.) for this exam question</errorMessage>
+</ValidationRule>

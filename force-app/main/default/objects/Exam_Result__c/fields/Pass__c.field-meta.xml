@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pass__c</fullName>
+    <description>Pass or Fail the Exam?</description>
+    <externalId>false</externalId>
+    <formula>IMAGE(
+IF ( 
+   OR(
+    NULLVALUE(GSP_Score__c, 0) &gt;= 75,
+   AND(
+    NULLVALUE(Physics_Score__c, 0) &gt;= 75, 
+    NULLVALUE(Physiology_Score__c, 0)  &gt;= 75,
+    NULLVALUE(RDP_Score__c, 0)  &gt;= 75,
+    NULLVALUE(Skills_Environment_Score__c, 0) &gt;= 75,  
+    NULLVALUE(Equipment_Score__c, 0)  &gt;= 75
+      )
+    ),
+    &quot;/resource/1595726407000/greenBall?&quot;,
+IF ( 
+   OR(
+    AND(NULLVALUE(GSP_Score__c, 0) &gt;0, NULLVALUE(GSP_Score__c, 0) &lt; 75, GSP_Complete__c = true),
+    AND(NULLVALUE(Physics_Score__c, 0) &gt;0, NULLVALUE(Physics_Score__c, 0) &lt; 75), 
+    AND(NULLVALUE(Physiology_Score__c, 0)  &gt;0, NULLVALUE(Physiology_Score__c, 0)  &lt; 75),
+    AND(NULLVALUE(RDP_Score__c, 0)  &gt;0 , NULLVALUE(RDP_Score__c, 0) &lt; 75),
+    AND(NULLVALUE(Skills_Environment_Score__c, 0) &gt;0 ,  NULLVALUE(Skills_Environment_Score__c, 0) &lt; 75),  
+    AND(NULLVALUE(Equipment_Score__c, 0)  &gt;0 , NULLVALUE(Equipment_Score__c, 0)  &lt; 75)
+    ),
+    &quot;/resource/1595726439000/redBall?&quot;,
+    &quot;/resource/1595726542000/greyball&quot;)), 
+    &quot;Exam Flag&quot;, 20, 20)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Pass?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

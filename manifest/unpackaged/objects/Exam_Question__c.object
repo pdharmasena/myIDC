@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Exam_Question_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Exam_Question_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Questions that appear in exams</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Question is Active ir Inactive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Question is Active ir Inactive?</inlineHelpText>
+        <label>Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AutoNumber__c</fullName>
+        <externalId>false</externalId>
+        <formula>VALUE(RIGHT(Name,6))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>AutoNumber</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CD_Staff_Solution__c</fullName>
+        <description>The correct answer to the question of quick reference to location in manuals</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The correct answer to the question of quick reference to the answer in manuals</inlineHelpText>
+        <label>CD/Staff Solution</label>
+        <length>5000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Correct_Answer__c</fullName>
+        <description>Pick the correct answer that for the question</description>
+        <externalId>false</externalId>
+        <label>Correct Answer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>B</fullName>
+                    <default>false</default>
+                    <label>B</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D</label>
+                </value>
+                <value>
+                    <fullName>TRUE</fullName>
+                    <default>false</default>
+                    <label>TRUE</label>
+                </value>
+                <value>
+                    <fullName>FALSE</fullName>
+                    <default>false</default>
+                    <label>FALSE</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Exam_Name_Text__c</fullName>
+        <externalId>false</externalId>
+        <formula>Exam__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Exam Name (Text)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Exam_Question_Count__c</fullName>
+        <description>Number of questions in the chosen exam</description>
+        <externalId>false</externalId>
+        <formula>Exam__r.Number_of_Questions__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Exam Question Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Exam_Section__c</fullName>
+        <description>Exam section</description>
+        <externalId>false</externalId>
+        <label>Exam Section (Theory Only)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Physics</fullName>
+                    <default>false</default>
+                    <label>Physics</label>
+                </value>
+                <value>
+                    <fullName>Physiology</fullName>
+                    <default>false</default>
+                    <label>Physiology</label>
+                </value>
+                <value>
+                    <fullName>RDP</fullName>
+                    <default>false</default>
+                    <label>RDP</label>
+                </value>
+                <value>
+                    <fullName>Skills &amp; Environment</fullName>
+                    <default>false</default>
+                    <label>Skills &amp; Environment</label>
+                </value>
+                <value>
+                    <fullName>Equipment</fullName>
+                    <default>false</default>
+                    <label>Equipment</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Exam_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Exam__r.Type__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Exam Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Exam__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Exam to which this question is linked</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Exam to which this question is linked</inlineHelpText>
+        <label>Exam</label>
+        <referenceTo>Exam__c</referenceTo>
+        <relationshipLabel>Exam Questions</relationshipLabel>
+        <relationshipName>Exam_Questions</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Question_Category__c</fullName>
+        <description>Category of the exam question</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Category for question.e.g. Physics: Displacement, Boyles Law; Physiology: Hypothermia, Lungs, etc.</inlineHelpText>
+        <label>Question Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Exam_Section__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Boyles Law</fullName>
+                    <default>false</default>
+                    <label>Boyles Law</label>
+                </value>
+                <value>
+                    <fullName>Displacement</fullName>
+                    <default>false</default>
+                    <label>Displacement</label>
+                </value>
+                <value>
+                    <fullName>Henry&apos;s Law</fullName>
+                    <default>false</default>
+                    <label>Henry&apos;s Law</label>
+                </value>
+                <value>
+                    <fullName>Refraction</fullName>
+                    <default>false</default>
+                    <label>Refraction</label>
+                </value>
+                <value>
+                    <fullName>Sound</fullName>
+                    <default>false</default>
+                    <label>Sound</label>
+                </value>
+                <value>
+                    <fullName>Density</fullName>
+                    <default>false</default>
+                    <label>Density</label>
+                </value>
+                <value>
+                    <fullName>Partial Pressure</fullName>
+                    <default>false</default>
+                    <label>Partial Pressure</label>
+                </value>
+                <value>
+                    <fullName>Conduction</fullName>
+                    <default>false</default>
+                    <label>Conduction</label>
+                </value>
+                <value>
+                    <fullName>Convection</fullName>
+                    <default>false</default>
+                    <label>Convection</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Physics</controllingFieldValue>
+                <valueName>Boyles Law</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Physics</controllingFieldValue>
+                <valueName>Displacement</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Physics</controllingFieldValue>
+                <valueName>Henry&apos;s Law</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Physics</controllingFieldValue>
+                <valueName>Refraction</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Physics</controllingFieldValue>
+                <valueName>Sound</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Physics</controllingFieldValue>
+                <valueName>Density</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Physics</controllingFieldValue>
+                <valueName>Partial Pressure</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Physics</controllingFieldValue>
+                <valueName>Conduction</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Physics</controllingFieldValue>
+                <valueName>Convection</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Question_Text__c</fullName>
+        <description>Full text of the question - including answer options</description>
+        <externalId>false</externalId>
+        <label>Question Text</label>
+        <length>5120</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Question__c</fullName>
+        <description>Number of the question in the exam</description>
+        <externalId>false</externalId>
+        <label>Question #</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Random__c</fullName>
+        <externalId>false</externalId>
+        <formula>VALUE(SUBSTITUTE(LEFT(RIGHT(TEXT(AutoNumber__c * AutoNumber__c * AutoNumber__c * (NOW() -  $System.OriginDateTime)),5),5),&quot;0&quot;,&quot;1&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Random</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Exam Question</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Active__c</columns>
+        <columns>Correct_Answer__c</columns>
+        <columns>Exam__c</columns>
+        <columns>Exam_Type__c</columns>
+        <columns>Question_Text__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>QID-{0000000}</displayFormat>
+        <label>Question Id</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Exam Questions</pluralLabel>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Exam_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Exam_Section__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Correct_Answer__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Question_Text__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Question__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Active__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <fullName>Check_for_Answer</fullName>
+        <active>true</active>
+        <description>Does the question have an answer</description>
+        <errorConditionFormula>ISBLANK( TEXT( Correct_Answer__c ) )</errorConditionFormula>
+        <errorDisplayField>Correct_Answer__c</errorDisplayField>
+        <errorMessage>You must set an &quot;Answer&quot; for this question!</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Must_have_a_Section</fullName>
+        <active>true</active>
+        <description>Exam question must have a section entered</description>
+        <errorConditionFormula>AND(
+ISBLANK( TEXT(Exam_Section__c) ), IF(Exam_Type__c = &quot;Theory&quot;, true, false)
+)</errorConditionFormula>
+        <errorDisplayField>Exam_Section__c</errorDisplayField>
+        <errorMessage>You must set a exam section (e.g. Physics, Physiology, etc.) for this exam question</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

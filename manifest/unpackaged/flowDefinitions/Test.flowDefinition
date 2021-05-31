@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>7</activeVersionNumber>
+    <description>Take Exam flow. This executes the main body of the exam for the candidates</description>
+    <masterLabel>Take Exam</masterLabel>
+</FlowDefinition>

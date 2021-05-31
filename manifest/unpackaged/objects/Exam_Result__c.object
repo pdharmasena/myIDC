@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Exam_Result_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Exam_Result_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Candidate Exam Results</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Candidate2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>IDC Candidate</description>
+        <externalId>false</externalId>
+        <label>Candidate</label>
+        <referenceTo>Candidate__c</referenceTo>
+        <relationshipLabel>Exam Results</relationshipLabel>
+        <relationshipName>Exam_Results</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Candidate_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Candidate Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Candidate_First_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Candidate2__r.First_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Candidate First Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Candidate_Full_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Candidate2__r.First_Name__c  &amp; &quot; &quot; &amp;  Candidate2__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Candidate Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Equipment_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Theory Equipment Exam completed?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Theory Equipment Exam completed?</inlineHelpText>
+        <label>Equipment Complete</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Equipment_Duration__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( 
+ROUND(MOD((Equipment_End_Time__c- Equipment_Start_Time__c)*24,24),0) 
+) &amp;&quot; Hours &quot; &amp; 
+TEXT( 
+ROUND(MOD((Equipment_End_Time__c- Equipment_Start_Time__c)*1440,60),0) 
+) &amp;&quot; Minutes &quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Equipment Duration</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Equipment_End_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Equipment End Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Equipment_Score__c</fullName>
+        <description>Theory Exam - Equipment Score</description>
+        <externalId>false</externalId>
+        <label>Equipment Score</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Equipment_Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Equipment Start Time</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Exam_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Exam__r.Type__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Exam Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Exam__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Result for Exam</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Result for Exam</inlineHelpText>
+        <label>Exam</label>
+        <referenceTo>Exam__c</referenceTo>
+        <relationshipLabel>Exam Results</relationshipLabel>
+        <relationshipName>Exam_Results</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Flag__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE(IF (
+   OR(
+     AND(Physics_Complete__c = true,  
+         Physiology_Complete__c = true,  
+         RDP_Complete__c = true,  
+         Skills_Complete__c = true,  
+         Equipment_Complete__c = true
+        ),
+        GSP_Complete__c = true
+     ), &quot;/resource/1595726407000/greenBall?&quot;, 
+    &quot;/resource/1595726542000/greyball&quot;), &quot;Exam Flag&quot;, 20, 20)</formula>
+        <label>Complete?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GSP_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>GSP exam is completed?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>GSP exam is completed?</inlineHelpText>
+        <label>GSP Complete</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>GSP_Duration__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( 
+ROUND(MOD((GSP_End_Time__c- GSP_Start_Time__c)*24,24),0) 
+) &amp;&quot; Hours &quot; &amp; 
+TEXT( 
+ROUND(MOD((GSP_End_Time__c- GSP_Start_Time__c)*1440,60),0) 
+) &amp;&quot; Minutes &quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>GSP Duration</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GSP_End_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>GSP End Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>GSP_Score__c</fullName>
+        <description>GSP Exam Score</description>
+        <externalId>false</externalId>
+        <inlineHelpText>GSP Exam Score</inlineHelpText>
+        <label>GSP Score</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GSP_Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>GSP Start Time</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>IDC__c</fullName>
+        <description>IDC Key fields - No to be exposed</description>
+        <externalId>false</externalId>
+        <label>IDC</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pass__c</fullName>
+        <description>Pass or Fail the Exam?</description>
+        <externalId>false</externalId>
+        <formula>IMAGE(
+IF ( 
+   OR(
+    NULLVALUE(GSP_Score__c, 0) &gt;= 75,
+   AND(
+    NULLVALUE(Physics_Score__c, 0) &gt;= 75, 
+    NULLVALUE(Physiology_Score__c, 0)  &gt;= 75,
+    NULLVALUE(RDP_Score__c, 0)  &gt;= 75,
+    NULLVALUE(Skills_Environment_Score__c, 0) &gt;= 75,  
+    NULLVALUE(Equipment_Score__c, 0)  &gt;= 75
+      )
+    ),
+    &quot;/resource/1595726407000/greenBall?&quot;,
+IF ( 
+   OR(
+    AND(NULLVALUE(GSP_Score__c, 0) &gt;0, NULLVALUE(GSP_Score__c, 0) &lt; 75, GSP_Complete__c = true),
+    AND(NULLVALUE(Physics_Score__c, 0) &gt;0, NULLVALUE(Physics_Score__c, 0) &lt; 75), 
+    AND(NULLVALUE(Physiology_Score__c, 0)  &gt;0, NULLVALUE(Physiology_Score__c, 0)  &lt; 75),
+    AND(NULLVALUE(RDP_Score__c, 0)  &gt;0 , NULLVALUE(RDP_Score__c, 0) &lt; 75),
+    AND(NULLVALUE(Skills_Environment_Score__c, 0) &gt;0 ,  NULLVALUE(Skills_Environment_Score__c, 0) &lt; 75),  
+    AND(NULLVALUE(Equipment_Score__c, 0)  &gt;0 , NULLVALUE(Equipment_Score__c, 0)  &lt; 75)
+    ),
+    &quot;/resource/1595726439000/redBall?&quot;,
+    &quot;/resource/1595726542000/greyball&quot;)), 
+    &quot;Exam Flag&quot;, 20, 20)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Pass?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Physics_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Theory - Physics completed?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Theory - Physics completed?</inlineHelpText>
+        <label>Physics Complete</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Physics_Duration__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( 
+ROUND(MOD((Physics_End_Time__c- Physics_Start_Time__c)*24,24),0) 
+) &amp;&quot; Hours &quot; &amp; 
+TEXT( 
+ROUND(MOD((Physics_End_Time__c- Physics_Start_Time__c)*1440,60),0) 
+) &amp;&quot; Minutes &quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Physics Duration</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Physics_End_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Physics End Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Physics_Score__c</fullName>
+        <description>Theory Physics Score</description>
+        <externalId>false</externalId>
+        <label>Physics Score</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Physics_Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Physics Start Time</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Physiology_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Theory Physiology Exam Completed?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Theory Physiology Exam Completed?</inlineHelpText>
+        <label>Physiology Complete</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Physiology_Duration__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( 
+ROUND(MOD((Physiology_End_Time__c- Physiology_Start_Time__c)*24,24),0) 
+) &amp;&quot; Hours &quot; &amp; 
+TEXT( 
+ROUND(MOD((Physiology_End_Time__c- Physiology_Start_Time__c)*1440,60),0) 
+) &amp;&quot; Minutes &quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Physiology Duration</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Physiology_End_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Physiology End Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Physiology_Score__c</fullName>
+        <description>Theory Exam - Physiology Score</description>
+        <externalId>false</externalId>
+        <label>Physiology Score</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Physiology_Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Physiology Start Time</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>RDP_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>RDP Exam Completed?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>RDP Exam Completed?</inlineHelpText>
+        <label>RDP Complete</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>RDP_Duration__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( 
+ROUND(MOD((RDP_End_Time__c- RDP_Start_Time__c)*24,24),0) 
+) &amp;&quot; Hours &quot; &amp; 
+TEXT( 
+ROUND(MOD((RDP_End_Time__c- RDP_Start_Time__c)*1440,60),0) 
+) &amp;&quot; Minutes &quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>RDP Duration</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RDP_End_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>RDP End Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>RDP_Score__c</fullName>
+        <description>Theory Exam RDP Score</description>
+        <externalId>false</externalId>
+        <label>RDP Score</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RDP_Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>RDP Start Time</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Results_Transcript__c</fullName>
+        <description>The transcript of the answers the candidate made for the exam.</description>
+        <externalId>false</externalId>
+        <label>Results Transcript</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Skills_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Theory Skills &amp; Environment Completed?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Theory Skills &amp; Environment Completed?</inlineHelpText>
+        <label>Skills Complete</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Skills_Duration__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( 
+ROUND(MOD((Skills_End_Time__c- Skills_Start_Time__c)*24,24),0) 
+) &amp;&quot; Hours &quot; &amp; 
+TEXT( 
+ROUND(MOD((Skills_End_Time__c- Skills_Start_Time__c)*1440,60),0) 
+) &amp;&quot; Minutes &quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Skills Duration</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Skills_End_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Skills End Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Skills_Environment_Score__c</fullName>
+        <description>Theory Skills and Environment Score</description>
+        <externalId>false</externalId>
+        <label>Skills Environment Score</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Skills_Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Skills Start Time</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <label>Exam Result</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Candidate_Full_Name__c</columns>
+        <columns>Exam__c</columns>
+        <columns>Physics_Score__c</columns>
+        <columns>Physiology_Score__c</columns>
+        <columns>RDP_Score__c</columns>
+        <columns>Skills_Environment_Score__c</columns>
+        <columns>Equipment_Score__c</columns>
+        <columns>GSP_Score__c</columns>
+        <columns>Pass__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>ET-{0000000}</displayFormat>
+        <label>Exam Taken Id</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Exam Results</pluralLabel>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Candidate_Full_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Exam__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Physics_Score__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Physiology_Score__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RDP_Score__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Skills_Environment_Score__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Equipment_Score__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>GSP_Score__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Pass__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <visibility>Public</visibility>
+</CustomObject>

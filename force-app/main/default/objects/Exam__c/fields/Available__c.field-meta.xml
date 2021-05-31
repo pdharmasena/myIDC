@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Available__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Exam is Generally Available to Candidate?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Exam is Generally Available to Candidate?  e.g. Theory F is NOT</inlineHelpText>
+    <label>Available</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>IDC Candidate Exam Results Notification</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Crystal</letterhead>
+    <name>IDC Exam Results</name>
+    <style>freeForm</style>
+    <subject>Your IDC Exam Results (details)</subject>
+    <textOnly>Dear {!Exam_Result__c.Candidate_First_Name__c},
+
+Nice work on your exam!    Here are the results:
+
+Exam:  {!Exam_Result__c.Exam__c}
+
+Theory:
+Physics:  {!Exam_Result__c.Physics_Score__c}
+Physiology: {!Exam_Result__c.Physiology_Score__c}
+RDP:  {!Exam_Result__c.RDP_Score__c}
+Skills &amp; Environment: {!Exam_Result__c.Skills_Environment_Score__c}
+Equipment: {!Exam_Result__c.Equipment_Score__c}
+
+GSP: General Standards &amp; Procedures:  {!Exam_Result__c.GSP_Score__c}
+
+
+Missed question transcript:
+{!Exam_Result__c.Results_Transcript__c}
+
+
+All the best,
+Crystal IDC Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
