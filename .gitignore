@@ -36,3 +36,11 @@ $RECYCLE.BIN/
 
 # Local environment variables
 .env
+
+# Other local files
+configOLD
+README.md
+hello.apex
+account.soql
+.gitignore.swp
+
